@@ -8,7 +8,7 @@ Un argumento es obligatorio (nombre del usuario), el segundo argumento es opcion
 
 ```Usage: Program.exe [Twitter's username] [Optional: int_max < 75]```
 
-![Console ](https://github.com/SharkiCS/GetLocation-Twitter/blob/master/location2.JPG)
+![Console ](https://github.com/SharkiCS/GetLocation-Twitter/blob/master/location2.png)
 
 
 Tiene de nombre Twitter IA Location, porque tenía pensado en un futuro recoger datos sobre las localizaciones de cada seguidor mutuo, para más tarde aplicar algoritmos de inteligencia artificial de regresión lineal para realizar prediciones. 
