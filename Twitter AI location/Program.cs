@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
@@ -20,13 +20,16 @@ namespace Twitter_AI_location
 
             int max_result = 35;
 
+            if (args.Length == 1) PrintLogo();
+
             if (args.Length == 2)
             {
-                if (Int32.TryParse(args[1], out int max) && max <= 70) { 
+                if (Int32.TryParse(args[1], out int max) && max <= 70)
+                {
                     max_result = max;
                     PrintLogo();
                 }
-                else  Console.WriteLine("The second argument has to be an integer and have a value lesser than 70.");
+                else { Console.WriteLine("The second argument has to be an integer and have a value lesser than 70."); Environment.Exit(0); }
             }
 
             Auth.SetUserCredentials(
@@ -54,7 +57,7 @@ namespace Twitter_AI_location
                 Console.WriteLine(@"                           [+] Created by Sharki.       ");
             }
 
-            void PrintHelp() => Console.WriteLine("Invalid username. Usage: [ProgramName.exe] + Target's username (@Example/example) to track. [Optional: (Integer) Maximum number of searches allowed < 70] {0}", args.Length);
+            void PrintHelp() => Console.WriteLine("Invalid username. Usage: [ProgramName.exe] + Target's username (@Example/example) to track. [Optional: (Integer) Maximum number of searches allowed < 70]");
 
             string findLocation(List<string> locations)
             {
