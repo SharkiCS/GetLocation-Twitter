@@ -6,3 +6,5 @@ Con este programa se puede obtener una idea sobre la localización del usuario b
 
 Un argumento es obligatorio (nombre del usuario), el segundo argumento es opcional. (Entero maximo de busquedas).
 
+```Usage: Program.exe [Twitter's username] [Optional: int_max < 75]```
+
