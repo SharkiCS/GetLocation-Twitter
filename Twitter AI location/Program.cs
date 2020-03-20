@@ -111,8 +111,8 @@ namespace Twitter_AI_location
                 if (count > max_result) break;
             }
 
-            Console.WriteLine("\n{0} Probable location based on target's followers/follows", findLocation(Location_firstlist));
-            Console.WriteLine("{0} Probable zone/country based on target's followers/follows", findLocation(Location_secondlist));
+            Console.WriteLine("\nProbable location based on target's followers/follows {0}", findLocation(Location_firstlist));
+            Console.WriteLine("Probable zone/country based on target's followers/follows{0}", findLocation(Location_secondlist));
 
             if(!String.IsNullOrEmpty(User.Location))
                 Console.WriteLine("User's set location: {0}", User.Location);
