@@ -11,4 +11,4 @@ Un argumento es obligatorio (nombre del usuario), el segundo argumento es opcion
 ![Console ](https://github.com/SharkiCS/GetLocation-Twitter/blob/master/location2.png)
 
 
-Tiene de nombre Twitter IA Location, porque tenía pensado en un futuro recoger datos sobre las localizaciones de cada seguidor mutuo, para más tarde aplicar algoritmos de inteligencia artificial de regresión lineal para realizar prediciones. 
+Tiene de nombre Twitter IA Location, porque tenía pensado en un futuro recoger datos sobre las localizaciones de cada seguidor mutuo, para más tarde aplicar algoritmos de inteligencia artificial para realizar prediciones. 
